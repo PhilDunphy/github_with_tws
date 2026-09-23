@@ -4,3 +4,7 @@ git add <file name>
 git rm -cached <file name>
 git commit -m "your msg"
 git restore
+git remote add origin https://github.com/PhilDunphy/github_with_tws.git
+git remote -v
+git remote set-url origin https://<github_PAT>@github.com/PhilDunphy/github_with_tws.git
+git push origin main
